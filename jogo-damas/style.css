@@ -1,0 +1,44 @@
+table{
+	border:solid #000 1px;
+	width:400px;
+	padding:0;
+	float: left;
+}
+
+table tr td{
+	width:50px;
+	height:50px;
+	border:1px solid red;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+	background:#000;
+}
+
+table tr:nth-child(odd) td:nth-child(odd) {
+	background:#000;
+}
+
+div.peca {
+		width: 30px;
+		height: 30px;
+		margin:10px;
+		-moz-border-radius:20px;	
+}
+
+div.branca {
+	background-color: blue;
+}
+
+div.vermelha {
+	background-color: red;
+}
+
+div#boxA, div#boxB{
+	float: left;
+	margin:0 20px;
+	background: #EEE;
+	border: 1px solid #CCC;
+	height: 200px;
+	width: 200px;
+}
