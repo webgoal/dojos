@@ -15,9 +15,6 @@ import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
 
-/**
- * Entry point classes define <code>onModuleLoad()</code>.
- */
 public class Web_escolhe implements EntryPoint {
 
 	private final HTML titulo = new HTML("<h1>Web Escolhe</h1>");
