@@ -1,6 +1,6 @@
 import unittest
 
-from extenso_alt import Numero
+from extenso import Numero
 
 class NumeroExtensoTest(unittest.TestCase):
 	
